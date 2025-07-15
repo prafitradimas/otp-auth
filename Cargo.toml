@@ -1,0 +1,16 @@
+[package]
+name = "otp-auth"
+description = "A Rust Implementation of HMAC and Time-based One-Time Passwords."
+version = "0.1.0"
+edition = "2024"
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/prafitradimas/otp-auth"
+repository = "https://github.com/prafitradimas/otp-auth.git"
+keywords = ["otp", "auth", "hotp", "totp", "hmac"]
+categories = ["cryptography", "authentication", "security"]
+
+[lib]
+name = "otp"
+
+[dependencies]
